@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#141924"/>
+  <g stroke="#26304530" stroke-width="1">
+    <line x1="0" y1="90" x2="640" y2="90"/>
+    <line x1="0" y1="180" x2="640" y2="180"/>
+    <line x1="0" y1="270" x2="640" y2="270"/>
+    <line x1="160" y1="0" x2="160" y2="360"/>
+    <line x1="320" y1="0" x2="320" y2="360"/>
+    <line x1="480" y1="0" x2="480" y2="360"/>
+  </g>
+  <text x="320" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#39ff14">MEDIA_PENDING</text>
+</svg>

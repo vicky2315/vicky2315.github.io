@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vignesh Suresh — Game Programmer</title>
+<meta name="description" content="Vignesh Suresh — Unreal Engine / Gameplay Programmer portfolio">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines"></div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="brand">VS<span class="brand-blip">_</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle theme">
+      <span class="icon-sun">☀</span>
+      <span class="icon-moon">☾</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hud-tag">// PLAYER_01 ONLINE</div>
+      <h1>VIGNESH SURESH</h1>
+      <h2 class="typewriter">Game Programmer — Unreal Engine (C++)</h2>
+      <p class="hero-sub">Bengaluru, India · Building gameplay systems, tools, and UI for large-scale strategy &amp; multiplayer titles.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/resume/Vignesh_Suresh_Resume.pdf" class="btn btn-outline" download>Download Résumé</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/vicky2315" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/vignesh-suresh-976110173" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:vigneshvinith23157@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <div class="portrait-frame">
+        <img src="assets/img/headshot-placeholder.svg" alt="Vignesh Suresh">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h3 class="section-title"><span class="index">01</span> About</h3>
+    <div class="about-body">
+      <p>
+        Game Programmer with 3+ years of industry experience specializing in Unreal Engine (C++ and Blueprint).
+        Currently building core gameplay systems on a large-scale strategy title at Nytwolf Games — migrating
+        legacy Blueprint framework to C++, building data-driven UI, and profiling/optimizing Slate performance.
+        Previously shipped multiplayer gameplay features and backend integrations at Highavenue Creative Labs,
+        and spent nearly 3 years on build verification QA for Grand Theft Auto VI and GTA Trilogy at Rockstar Games.
+        MSc in Computer Games Technology from Abertay University, Dundee.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h3 class="section-title"><span class="index">02</span> Projects</h3>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-media">
+          <img src="assets/img/project-placeholder.svg" alt="Project Greenleaf placeholder">
+          <span class="media-tag">MEDIA PENDING (proprietary)</span>
+        </div>
+        <div class="project-body">
+          <h4>Project Greenleaf</h4>
+          <p class="project-meta">Nytwolf Games · Unreal Engine 5 · C++ · Apr 2026 – Present</p>
+          <p>Core gameplay programmer on an unannounced large-scale strategy title. Migrated legacy Blueprint
+             framework to C++, extended faction diplomacy/covert-ops/economy systems, built 15+ MVVM-driven UI
+             widgets from Figma, and cut Slate/UMG HUD paint cost ~75–90% via a headless Unreal Insights
+             profiling pipeline.</p>
+          <p class="project-note">Proprietary/unreleased — details limited to public role summary, no source or screenshots.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media">
+          <img src="assets/img/project-placeholder.svg" alt="Target Forces placeholder">
+          <span class="media-tag">MEDIA PENDING</span>
+        </div>
+        <div class="project-body">
+          <h4>Target Forces</h4>
+          <p class="project-meta">Highavenue Creative Labs · Unreal Engine · Late 2026</p>
+          <p>Upcoming battle royale mobile title. Backend work with Firebase Authentication and Cloud Firestore;
+             frontend stack-based UI system; game mechanics implementation with a focus on mobile performance.</p>
+          <div class="project-links">
+            <!-- TODO-VIDEO-TARGETFORCES: replace # with YouTube link -->
+            <button class="link-disabled video-trigger" data-video-id="" data-video-title="Target Forces">Video</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-repo-url="https://github.com/vicky2315/action-combat-prototype" tabindex="0">
+        <div class="project-media">
+          <img src="assets/img/project-placeholder.svg" alt="Soulslike Action Combat System placeholder">
+          <span class="media-tag">GIF/SCREENSHOT PENDING</span>
+        </div>
+        <div class="project-body">
+          <h4>Soulslike Action Combat System</h4>
+          <p class="project-meta">Unreal Engine 5 · C++ · Jun 2025 – Sep 2025</p>
+          <p>Complete melee combat system: hit-tracing, damage events, animation notifies, responsive enemy
+             reactions, AI perception/behavior trees, lock-on targeting, and a debug overlay.</p>
+          <div class="project-links">
+            <a href="https://github.com/vicky2315/action-combat-prototype" target="_blank" rel="noopener">Source</a>
+            <!-- TODO-VIDEO-SOULSLIKE: replace # with YouTube link -->
+            <button class="link-disabled video-trigger" data-video-id="6WAuoxmsgwI" data-video-title="Soulslike Action Combat System">Video</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-repo-url="https://github.com/vicky2315/CaelumProject" tabindex="0">
+        <div class="project-media">
+          <img src="assets/img/project-placeholder.svg" alt="Sleipnir placeholder">
+          <span class="media-tag">GIF/SCREENSHOT PENDING</span>
+        </div>
+        <div class="project-body">
+          <h4>Sleipnir</h4>
+          <p class="project-meta">Unreal Engine · Team of 7 · Abertay University · Jan 2024 – Apr 2024</p>
+          <p>A creepy first-person shooter inspired by Half-Life and Doom, built for Abertay's Game Design and
+             Development module. Lead programmer role covering AI, player mechanics, and weapons.</p>
+          <div class="project-links">
+            <a href="https://github.com/vicky2315/CaelumProject" target="_blank" rel="noopener">Source</a>
+            <!-- TODO-VIDEO-SLEIPNIR: replace # with YouTube link -->
+            <button class="link-disabled video-trigger" data-video-id="-yEBfHxkZ1M" data-video-title="Sleipnir">Video</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-repo-url="https://github.com/vicky2315/F1Simulator" tabindex="0">
+        <div class="project-media">
+          <img src="assets/img/project-placeholder.svg" alt="F1 Simulator placeholder">
+          <span class="media-tag">GIF/SCREENSHOT PENDING</span>
+        </div>
+        <div class="project-body">
+          <h4>F1 Simulator</h4>
+          <p class="project-meta">Unity · ML-Agents · Master's Project</p>
+          <p>Reinforcement-learning racing simulator built with Unity's ML-Agents framework — trained competitive
+             AI driving agents across two tracks.</p>
+          <div class="project-links">
+            <a href="https://github.com/vicky2315/F1Simulator" target="_blank" rel="noopener">Source</a>
+            <!-- TODO-VIDEO-F1SIM: replace # with YouTube link -->
+            <button class="link-disabled video-trigger" data-video-id="" data-video-title="F1 Simulator">Video</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE (compact) -->
+  <section id="experience" class="section">
+    <h3 class="section-title"><span class="index">03</span> Experience</h3>
+
+    <div class="exp-strip">
+      <div class="exp-row">
+        <span class="exp-role">Game Programmer</span>
+        <span class="exp-company">Nytwolf Games</span>
+        <span class="exp-date">Apr 2026 — Present</span>
+      </div>
+      <div class="exp-row">
+        <span class="exp-role">Unreal Engine Developer</span>
+        <span class="exp-company">Highavenue Creative Labs</span>
+        <span class="exp-date">Jan 2025 — Apr 2026</span>
+      </div>
+      <div class="exp-row">
+        <span class="exp-role">QA Tester — Build Verification</span>
+        <span class="exp-company">Rockstar Games</span>
+        <span class="exp-date">Nov 2020 — Sep 2023</span>
+      </div>
+    </div>
+    <p class="exp-note">Full bullet-point breakdown of each role is in the <a href="assets/resume/Vignesh_Suresh_Resume.pdf" download>résumé</a>; project highlights from these roles are covered above.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h3 class="section-title"><span class="index">04</span> Skills</h3>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h5>Engines</h5>
+        <div class="tags">
+          <span class="tag">Unreal Engine</span>
+          <span class="tag">Unity</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h5>Languages</h5>
+        <div class="tags">
+          <span class="tag">C++</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h5>Systems &amp; Tools</h5>
+        <div class="tags">
+          <span class="tag">Gameplay Ability System</span>
+          <span class="tag">MVVM UI Architecture</span>
+          <span class="tag">Slate/UMG Profiling</span>
+          <span class="tag">DirectX 11</span>
+          <span class="tag">Perforce</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">AWS</span>
+          <span class="tag">JIRA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h3 class="section-title"><span class="index">05</span> Contact</h3>
+    <p class="contact-lead">Open to Game Programmer / Unreal Engine Developer roles. Reach out:</p>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:vigneshvinith23157@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">vigneshvinith23157@gmail.com</span>
+      </a>
+      <a class="contact-card" href="tel:+919902345710">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+91 99023 45710</span>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/vignesh-suresh-976110173" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">in/vignesh-suresh-976110173</span>
+      </a>
+      <a class="contact-card" href="https://github.com/vicky2315" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/vicky2315</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<div id="video-modal" class="video-modal" hidden>
+  <div class="video-modal-backdrop" data-close-modal></div>
+  <div class="video-modal-panel">
+    <button class="video-modal-close" data-close-modal aria-label="Close video">✕</button>
+    <div class="video-modal-frame">
+      <iframe id="video-modal-iframe" src="" title="Project video" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Vignesh Suresh — Built with HTML/CSS/JS, hosted on GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

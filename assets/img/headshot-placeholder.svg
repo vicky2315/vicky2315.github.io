@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <rect width="220" height="220" fill="#1a2130"/>
+  <circle cx="110" cy="86" r="38" fill="#26304530" stroke="#39ff14" stroke-width="2"/>
+  <path d="M40 210c0-44 32-70 70-70s70 26 70 70" fill="#26304530" stroke="#39ff14" stroke-width="2"/>
+  <text x="110" y="210" text-anchor="middle" font-family="monospace" font-size="10" fill="#39ff14">PHOTO_PENDING</text>
+</svg>
