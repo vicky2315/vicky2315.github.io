@@ -154,6 +154,14 @@ img{ max-width:100%; display:block; }
 .section-title .index{ color:var(--accent); font-size:1rem; }
 .about-body p{ max-width:72ch; color:var(--text-dim); }
 
+/* ---------- Project group sub-headings ---------- */
+.project-group + .project-group{ margin-top:48px; }
+.project-group-title{
+  font-family:var(--mono); font-size:.95rem; letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--text-dim); margin-bottom:18px; display:flex; align-items:center; gap:10px;
+}
+.project-group-title::after{ content:""; flex:1; height:1px; background:var(--border); }
+
 /* ---------- Latest Work spotlight ---------- */
 .spotlight-card{
   display:grid; grid-template-columns:1.1fr 1fr; gap:0;
