@@ -157,10 +157,10 @@ img{ max-width:100%; display:block; }
 /* ---------- Project group sub-headings ---------- */
 .project-group + .project-group{ margin-top:48px; }
 .project-group-title{
-  font-family:var(--mono); font-size:.95rem; letter-spacing:1.5px; text-transform:uppercase;
-  color:var(--text-dim); margin-bottom:18px; display:flex; align-items:center; gap:10px;
+  font-family:var(--mono); font-size:1.3rem; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+  color:var(--accent); margin-bottom:22px; display:flex; align-items:center; gap:14px;
 }
-.project-group-title::after{ content:""; flex:1; height:1px; background:var(--border); }
+.project-group-title::after{ content:""; flex:1; height:2px; background:var(--accent); opacity:.35; }
 
 /* ---------- Latest Work spotlight ---------- */
 .spotlight-card{
