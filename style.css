@@ -253,6 +253,7 @@ img{ max-width:100%; display:block; }
 .project-card[data-repo-url]:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
 .project-media{ position:relative; aspect-ratio:16/9; background:var(--surface-2); }
 .project-media img{ width:100%; height:100%; object-fit:cover; opacity:.85; }
+.project-media-zoomout img{ object-fit:contain; transform:scale(0.6); }
 .media-tag{
   position:absolute; bottom:8px; left:8px; font-family:var(--mono); font-size:.65rem;
   background:rgba(0,0,0,.6); color:var(--accent-warn); padding:3px 8px; border-radius:2px; letter-spacing:.5px;
