@@ -1,6 +1,6 @@
 # vicky2315.github.io
 
-Personal portfolio site — Game Programmer / Unreal Engine Developer.
+Personal portfolio site - Game Programmer / Unreal Engine Developer.
 
 Plain HTML/CSS/JS, no build step. Hosted via GitHub Pages. **Live**: https://vicky2315.github.io
 
